@@ -30,9 +30,9 @@ commentlist2 = [
 
 
 def main():
-    # api.login("dayan_video", "sem1384sem")
-    api.login("rayanweb_","luciferMM666@")
-    # api.unfollow("mementomori.ir")
+    
+    api.login("test_sele","sele_Admin")
+    
     shuffle(taglist2)
     for tag in taglist2:
         api.findSimilar(tag)
